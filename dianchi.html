@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			div{border: 1px solid black;}
+			.c{width: 70px;height: 30px;background-color: white;float: left;}
+			.a{width: 70px;height: 30px;background-color: white;border: none;position: relative;
+			top: 1px;left: 1px;
+			animation: action 2s ease-in 1s infinite;}
+			.b{width: 4px;height: 10px;
+			background-color: white;
+			border-left: none;position: absolute;left: 80px;top: 18px;}
+			@-webkit-keyframes action{
+				0%{width: 20px;height: 30px;background-color: limegreen;}
+				100%{width: 70px;height: 30px;background-color: limegreen;}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="c"></div>
+		<div class="a"></div>
+		<div class="b"></div>
+	</body>
+</html>
