@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			.head{position: relative;border: 2px solid black;
+    width: 250px;
+    height: 230px;
+    border-top-left-radius: 50% 48%;
+    border-top-right-radius: 50% 48%;
+    border-bottom-left-radius: 30% 50%;
+    border-bottom-right-radius: 30% 50%;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #059AE2;}
+			.face{
+    width: 220px;
+    height: 190px;border: 2px solid black;
+    border-top-left-radius: 50% 60%;
+    border-top-right-radius: 50% 60%;
+    border-bottom-left-radius: 30% 50%;
+    border-bottom-right-radius: 30% 50%;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;}
+       .lefteye{
+       	border: 2px solid black;
+    border-top-left-radius: 80% 90%;
+    border-top-right-radius: 110% 100%;
+    border-bottom-left-radius: 70% 100%;
+    border-bottom-right-radius: 110% 100%;
+       	width: 65px;
+    height: 70px;
+    position: absolute;
+    top: -30px;
+    left: 65px;
+    right: 0;
+    margin: 0 auto;
+    background-color: white
+}
+ .righteye{
+       	border: 2px solid black;
+       	border-top-left-radius: 110% 100%;
+    border-top-right-radius: 80% 90%;
+    border-bottom-left-radius: 110% 100%;
+    border-bottom-right-radius: 70% 100%;
+       	width: 65px;
+    height: 70px;
+    position: absolute;
+    top: -30px;
+    left: -70px;
+    right: 0;
+    margin: 0 auto;
+    background-color: white;
+}
+.smellleft{
+    width: 20px;
+    height: 10px;
+    border: 3px solid #000;
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    
+}
+.smellright{
+    width: 20px;
+    height: 10px;
+    border: 3px solid #000;
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+    position: absolute;
+    top: 40%;
+    right: 20px;
+   
+}
+.nose{width: 40px;
+    height: 40px;border: 2px solid #000;border-radius: 100%;
+    position: absolute; 
+    left: 87PX;top: 15PX;background-color: red;
+    }
+    .nosewhite{width: 10px;
+    height: 10px;border: 2px;border-radius: 100%;
+    position: absolute;
+    left: 10PX;top: 6PX;background-color: white;
+    }
+    .mouthmiddle{
+    	width: 1px;
+    height: 90px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 25%;
+    left: 108px;
+    background-color: #000000;
+    }
+    .mouth{
+    	width: 180px;
+    height: 70px;
+    border: 2px solid #000;
+    border-top: none;
+    position: absolute;
+     border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    top: 37%;
+    left: 20px;
+    }
+    .mustacheone{width: 1px;
+    height: 70px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    background-color: #000000;
+    transform: rotate(-75deg);}
+    .mustachetwo{width: 1px;
+    height: 70px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 10%;
+    left: 73%;
+    background-color: #000000;
+    transform: rotate(75deg);}
+    .mustachethree{width: 1px;
+    height: 70px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 40%;
+    left: 73%;
+    background-color: #000000;
+    transform: rotate(105deg);}
+    .mustachefour{width: 1px;
+    height: 70px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    background-color: #000000;
+    transform: rotate(75deg);}
+    .mustachefive{width: 70px;
+    height: 1px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 43%;
+    left: 7%;
+    background-color: #000000;}
+    .mustachesix{width: 70px;
+    height: 1px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 43%;
+    left: 60%;
+    background-color: #000000;
+   }
+   .neck{position: relative;width: 180px;height: 20px;background-color: red;
+   top: -180px;
+    left: 0;
+    right: 0;
+    margin: auto;border-radius: 10px;}
+    .bell{position: absolute;width: 60px;height: 60px;background-color: orange;
+    top: 5px;left: 0;right: 0;border-radius: 50%;
+    margin: auto}
+    div{border: 1px solid black;}
+    .aa{width: 60px;height: 4px;background-color: orange;margin-top: 15px;
+    margin-left: -1px;border-radius: 2px;}
+    .bb{width: 15px;height: 15px;background-color: black;margin-top: 12px;margin-left: 22px;border-radius: 50%;}
+		.l{width: 1px;height: 9px;
+		background-color: black;margin-top: 15px;margin-left: 6px;}
+		.shenti{width: 180px;height: 180px;background-color: dodgerblue;position: relative;
+		border-radius: 10%;top: 10px;left: 0px;right 0;margin: auto;
+		border-top-left-radius: 100% 500%;
+    border-top-right-radius: 100% 500%;
+    border-bottom-left-radius: 100% 500%;
+    border-bottom-right-radius: 100% 500%}
+    .duzi{width: 150px;height: 150px;background-color: white;position: absolute;
+		border-radius: 10%;top: 10px;left: 14px;right 0;margin: auto;
+		border-top-left-radius: 50% 60%;
+    border-top-right-radius: 50% 60%;
+    border-bottom-left-radius: 50% 60%;
+    border-bottom-right-radius: 50% 60%}
+    .koudai{width: 100px;height: 50px;background-color: white;border-radius: 0 0 50px 50px;
+    position: relative;margin: auto;top: -100px;}
+    .leftfoot{width: 100px;height: 40px;background-color: white;position: relative;margin: auto;
+    left: -50px;top: -70px;border-top-left-radius: 50% 60%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 50% 60%;
+    border-bottom-right-radius: 30% 30%;overflow: hidden;}
+    .rightfoot{width: 100px;height: 40px;background-color: white;position: relative;margin: auto;
+    left: 50px;top: -112px;border-top-left-radius: 0;
+    border-top-right-radius: 50% 60%;
+    border-bottom-left-radius: 30% 30%;
+    border-bottom-right-radius: 50% 60%;overflow: hidden;}
+    .leftarm{width: 100px;height: 35px;background-color: dodgerblue;
+    position: absolute;margin: auto;left: 225px;transform: rotate(-60deg);top: 280px;}
+    .rightarm{width: 100px;height: 35px;background-color: dodgerblue;transform: rotate(60deg);
+    top: 290px;
+    position: absolute;margin: auto;left: 400px}
+    .lefthand{width: 50px;height: 50px;background-color: white;border-radius: 50%;
+    position: relative;margin: auto;top: -250px;left: -120px;}
+    .righthand{width: 50px;height: 50px;background-color: white;border-radius: 50%;
+    position: relative;margin: auto;top: -300px;left: 120px;}
+		</style>
+	</head>
+	<body>
+		<div class="head">
+		<div class="face">
+		<div class="righteye">
+			<div class="smellright"></div>
+		</div>
+		<div class="lefteye">
+			<div class="smellleft"></div>
+		</div>
+		<div class="mouth"></div>
+		<div class="mouthmiddle"></div>
+		<div class="nose">
+			<div class="nosewhite"></div>
+		</div>
+		<div class="mustacheone"></div>
+		<div class="mustachetwo"></div>
+		<div class="mustachethree"></div>
+		<div class="mustachefour"></div>
+		<div class="mustachefive"></div>
+		<div class="mustachesix"></div>
+		</div>
+		</div>
+		<div class="leftarm">
+	</div>
+	<div class="rightarm">
+	</div>
+	<div class="shenti">
+		<div class="duzi">	
+		</div>
+	</div>
+	<div class="neck">
+		<div class="bell">
+			<div class="aa">
+			</div>
+			<div class="bb">
+				<div class="l">
+				</div>
+			</div>
+		</div>
+	</div>	
+	</div>
+	<div class="koudai">
+	</div>
+	<div class="leftfoot">
+	</div>
+	<div class="rightfoot">
+	</div>
+	<div class="lefthand">
+	</div>
+	<div class="righthand">
+	</div>
+	</body>
+</html>
